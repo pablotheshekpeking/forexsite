@@ -29,7 +29,7 @@ const ScrollSnapContainer = () => {
                 <div className="parent row" style={parentStyles}>
                     <Stack direction={'row'}>
                         <section className="one" style={{ ...sectionStyles }}>
-                            <Stack direction={'column'} w={'100%'}>
+                            <Stack direction={'column'} w={'500px'}>
                                 <Box>
                                     <Image src="/forex1.png" />
                                 </Box>
@@ -45,7 +45,7 @@ const ScrollSnapContainer = () => {
                             </Stack>
                         </section>
                         <section className="two" style={{ ...sectionStyles }}>
-                            <Stack direction={'column'} w={'100%'}>
+                            <Stack direction={'column'} w={'500px'}>
                                 <Box>
                                     <Image src="/forex1.png" />
                                 </Box>
@@ -61,7 +61,7 @@ const ScrollSnapContainer = () => {
                             </Stack>
                         </section>
                         <section className="three" style={{ ...sectionStyles }}>
-                            <Stack direction={'column'} w={'100%'}>
+                            <Stack direction={'column'} w={'500px'}>
                                 <Box>
                                     <Image src="/forex1.png" />
                                 </Box>
@@ -77,7 +77,7 @@ const ScrollSnapContainer = () => {
                             </Stack>
                         </section>
                         <section className="four" style={{ ...sectionStyles }}>
-                            <Stack direction={'column'} w={'100%'}>
+                            <Stack direction={'column'} w={'500px'}>
                                 <Box>
                                     <Image src="/forex1.png" />
                                 </Box>
