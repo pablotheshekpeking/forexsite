@@ -1,3 +1,5 @@
+'use client'
+import { Stack, Box, Image, Heading, Text } from '@chakra-ui/react';
 import React from 'react';
 
 const ScrollSnapContainer = () => {
@@ -25,16 +27,76 @@ const ScrollSnapContainer = () => {
   return (
     <div className="parent row" style={parentStyles}>
       <section className="one" style={{ ...sectionStyles, backgroundColor: 'red' }}>
-        <!-- Add content for section one here -->
+        <Stack direction={'column'}>
+            <Box>
+                <Image src="/forex1.png" />
+            </Box>
+            <Box>
+                <Heading>
+                    Something Important
+                </Heading>
+                <Text>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi veniam reprehenderit exercitationem perferendis magnam pariatur 
+                    et facere alias, nesciunt minus dolorem vero est sapiente, repellendus hic quis? Voluptate, facere ratione?
+                    Molestias doloremque dolorem, unde obcaecati ducimus neque itaque, ad iure nemo debitis doloribus molestiae 
+                    laudantium quisquam accusamus impedit fugiat, perspiciatis deleniti adipisci minima optio ipsa. Incidunt blanditiis aliquid vel aperiam!
+                </Text>
+            </Box>
+        </Stack>
       </section>
       <section className="two" style={{ ...sectionStyles, backgroundColor: 'blue' }}>
-        <!-- Add content for section two here -->
+      <Stack direction={'column'}>
+            <Box>
+                <Image src="/forex1.png" />
+            </Box>
+            <Box>
+                <Heading>
+                    Something Important
+                </Heading>
+                <Text>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi veniam reprehenderit exercitationem perferendis magnam pariatur 
+                    et facere alias, nesciunt minus dolorem vero est sapiente, repellendus hic quis? Voluptate, facere ratione?
+                    Molestias doloremque dolorem, unde obcaecati ducimus neque itaque, ad iure nemo debitis doloribus molestiae 
+                    laudantium quisquam accusamus impedit fugiat, perspiciatis deleniti adipisci minima optio ipsa. Incidunt blanditiis aliquid vel aperiam!
+                </Text>
+            </Box>
+        </Stack>
       </section>
       <section className="three" style={{ ...sectionStyles, backgroundColor: 'grey' }}>
-        <!-- Add content for section three here -->
+      <Stack direction={'column'}>
+            <Box>
+                <Image src="/forex1.png" />
+            </Box>
+            <Box>
+                <Heading>
+                    Something Important
+                </Heading>
+                <Text>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi veniam reprehenderit exercitationem perferendis magnam pariatur 
+                    et facere alias, nesciunt minus dolorem vero est sapiente, repellendus hic quis? Voluptate, facere ratione?
+                    Molestias doloremque dolorem, unde obcaecati ducimus neque itaque, ad iure nemo debitis doloribus molestiae 
+                    laudantium quisquam accusamus impedit fugiat, perspiciatis deleniti adipisci minima optio ipsa. Incidunt blanditiis aliquid vel aperiam!
+                </Text>
+            </Box>
+        </Stack>
       </section>
       <section className="four" style={{ ...sectionStyles, backgroundColor: 'green' }}>
-        <!-- Add content for section four here -->
+      <Stack direction={'column'}>
+            <Box>
+                <Image src="/forex1.png" />
+            </Box>
+            <Box>
+                <Heading>
+                    Something Important
+                </Heading>
+                <Text>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi veniam reprehenderit exercitationem perferendis magnam pariatur 
+                    et facere alias, nesciunt minus dolorem vero est sapiente, repellendus hic quis? Voluptate, facere ratione?
+                    Molestias doloremque dolorem, unde obcaecati ducimus neque itaque, ad iure nemo debitis doloribus molestiae 
+                    laudantium quisquam accusamus impedit fugiat, perspiciatis deleniti adipisci minima optio ipsa. Incidunt blanditiis aliquid vel aperiam!
+                </Text>
+            </Box>
+        </Stack>
       </section>
     </div>
   );

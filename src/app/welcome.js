@@ -6,7 +6,7 @@ import React from "react";
 const Welcome = () => {
     return (
         <Stack w={'100%'} h={'500px'} direction={['column', 'column', 'row', 'row']} mb={['0px', '0px', '', '']}>
-            <Box w={'100%'} textAlign={'center'} mt={['100px', '100px', '30px', '20%']} pr={'20px'} pl={'20px'}>
+            <Box w={'100%'} textAlign={'center'} mt={['200px', '200px', '30px', '20%']} pr={'20px'} pl={'20px'}>
                 <Heading mb={['5px', '10px', '20px', '20px']}>
                     Welcome to Duman Forex
                 </Heading>

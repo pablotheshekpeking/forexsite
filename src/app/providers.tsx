@@ -7,6 +7,7 @@ import  Navbar  from './navbar.js';
 import Welcome from './welcome.js';
 import Founder from './founder.js';
 import Types from './types.js';
+import ScrollSnapContainer from './ScrollSnapContainer.js';
 
 export function Providers({ 
     children 
@@ -24,6 +25,8 @@ export function Providers({
         <Founder />
 
         <Types />
+
+        <ScrollSnapContainer />
 
 
 
