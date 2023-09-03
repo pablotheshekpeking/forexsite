@@ -23,7 +23,7 @@ const ScrollSnapContainer = () => {
     };
 
     return (
-        <Stack direction={'row'}>
+        <Stack direction={'row'} mt={'50px'}>
             <Box w={'10%'}></Box>
             <Box w={'80%'} m={'auto'}>
                 <div className="parent row" style={parentStyles}>
@@ -34,10 +34,10 @@ const ScrollSnapContainer = () => {
                                     <Image src="/forex1.png" />
                                 </Box>
                                 <Box>
-                                    <Heading>
+                                    <Heading fontSize={'20px'}>
                                         Something Important
                                     </Heading>
-                                    <Text>
+                                    <Text fontSize={'15px'}>
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi veniam reprehenderit exercitationem perferendis magnam pariatur
                                         et facere alias, nesciunt minus dolorem vero est sapiente, repellendus hic quis? Voluptate, facere ratione?
                                         Molestias doloremque dolorem, unde obcaecati ducimus neque itaque, ad iure nemo debitis doloribus molestiae
@@ -52,10 +52,10 @@ const ScrollSnapContainer = () => {
                                     <Image src="/forex1.png" />
                                 </Box>
                                 <Box>
-                                    <Heading>
+                                    <Heading fontSize={'20px'}>
                                         Something Important
                                     </Heading>
-                                    <Text>
+                                    <Text fontSize={'15px'}>
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi veniam reprehenderit exercitationem perferendis magnam pariatur
                                         et facere alias, nesciunt minus dolorem vero est sapiente, repellendus hic quis? Voluptate, facere ratione?
                                         Molestias doloremque dolorem, unde obcaecati ducimus neque itaque, ad iure nemo debitis doloribus molestiae
@@ -70,10 +70,10 @@ const ScrollSnapContainer = () => {
                                     <Image src="/forex1.png" />
                                 </Box>
                                 <Box>
-                                    <Heading>
+                                    <Heading fontSize={'20px'}>
                                         Something Important
                                     </Heading>
-                                    <Text>
+                                    <Text fontSize={'15px'}>
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi veniam reprehenderit exercitationem perferendis magnam pariatur
                                         et facere alias, nesciunt minus dolorem vero est sapiente, repellendus hic quis? Voluptate, facere ratione?
                                         Molestias doloremque dolorem, unde obcaecati ducimus neque itaque, ad iure nemo debitis doloribus molestiae
@@ -88,10 +88,10 @@ const ScrollSnapContainer = () => {
                                     <Image src="/forex1.png" />
                                 </Box>
                                 <Box>
-                                    <Heading>
+                                    <Heading fontSize={'20px'}>
                                         Something Important
                                     </Heading>
-                                    <Text>
+                                    <Text fontSize={'15px'}>
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi veniam reprehenderit exercitationem perferendis magnam pariatur
                                         et facere alias, nesciunt minus dolorem vero est sapiente, repellendus hic quis? Voluptate, facere ratione?
                                         Molestias doloremque dolorem, unde obcaecati ducimus neque itaque, ad iure nemo debitis doloribus molestiae
