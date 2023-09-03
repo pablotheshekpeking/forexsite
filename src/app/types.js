@@ -1,5 +1,5 @@
 'use client'
-import { Stack, Box, Heading, Text } from "@chakra-ui/react";
+import { Stack, Box, Heading, Text, Divider } from "@chakra-ui/react";
 import React from "react";
 
 const Types = () => {
@@ -19,6 +19,7 @@ const Types = () => {
                     architecto officiis velit officia molestiae.
                 </Text>
             </Box>
+            <Divider orientation={['horizontal', 'horizontal', 'vertical', 'vertical']} />
             <Box bg={'#dddddd'} w={'100%'} textAlign={'center'} borderRadius={'20px'}>
                 <Heading as={'h3'} pt={'20px'} pl={'20px'} pr={'20px'}>
                     Google Adsense
@@ -29,6 +30,7 @@ const Types = () => {
                     architecto officiis velit officia molestiae.
                 </Text>
             </Box>
+            <Divider orientation={['horizontal', 'horizontal', 'vertical', 'vertical']} />
             <Box bg={'#dddddd'} w={'100%'} textAlign={'center'} borderRadius={'20px'}>
                 <Heading as={'h3'} pt={'20px'} pl={'20px'} pr={'20px'}>
                     Web Design (Html & React)
@@ -39,6 +41,7 @@ const Types = () => {
                     architecto officiis velit officia molestiae.
                 </Text>
             </Box>
+            <Divider orientation={['horizontal', 'horizontal', 'vertical', 'vertical']} />
         </Stack>
         </>
      );
