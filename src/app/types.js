@@ -13,7 +13,7 @@ const Types = () => {
                 <Heading as={'h3'} pt={'20px'} pl={'20px'} pr={'20px'}>
                     Forex Trading for beginners & pros
                 </Heading>
-                <Text pl={'20px'} pr={'20px'} m={'auto'}>
+                <Text pl={'20px'} pr={'20px'} m={'auto'} pb={'20px'}>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi nihil exercitationem eum 
                     tempora amet commodi culpa libero consectetur magni! Commodi cum suscipit dicta iusto quos 
                     architecto officiis velit officia molestiae.
@@ -24,7 +24,7 @@ const Types = () => {
                 <Heading as={'h3'} pt={'20px'} pl={'20px'} pr={'20px'}>
                     Google Adsense
                 </Heading>
-                <Text pl={'20px'} pr={'20px'}>
+                <Text pl={'20px'} pr={'20px'} pb={'20px'}>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi nihil exercitationem eum 
                     tempora amet commodi culpa libero consectetur magni! Commodi cum suscipit dicta iusto quos 
                     architecto officiis velit officia molestiae.
@@ -35,7 +35,7 @@ const Types = () => {
                 <Heading as={'h3'} pt={'20px'} pl={'20px'} pr={'20px'}>
                     Web Design (Html & React)
                 </Heading>
-                <Text pl={'20px'} pr={'20px'} m={'auto'}>
+                <Text pl={'20px'} pr={'20px'} m={'auto'} pb={'20px'}>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi nihil exercitationem eum 
                     tempora amet commodi culpa libero consectetur magni! Commodi cum suscipit dicta iusto quos 
                     architecto officiis velit officia molestiae.
