@@ -19,7 +19,7 @@ const Types = () => {
                     architecto officiis velit officia molestiae.
                 </Text>
             </Box>
-            <Divider orientation={['horizontal', 'horizontal', 'vertical', 'vertical']} />
+            <Divider orientation={['horizontal', 'horizontal', 'vertical', 'vertical']} borderColor={'black'} />
             <Box bg={'#dddddd'} w={'100%'} textAlign={'center'} borderRadius={'20px'}>
                 <Heading as={'h3'} pt={'20px'} pl={'20px'} pr={'20px'}>
                     Google Adsense
@@ -30,7 +30,7 @@ const Types = () => {
                     architecto officiis velit officia molestiae.
                 </Text>
             </Box>
-            <Divider orientation={['horizontal', 'horizontal', 'vertical', 'vertical']} />
+            <Divider orientation={['horizontal', 'horizontal', 'vertical', 'vertical']} borderColor={'black'} />
             <Box bg={'#dddddd'} w={'100%'} textAlign={'center'} borderRadius={'20px'}>
                 <Heading as={'h3'} pt={'20px'} pl={'20px'} pr={'20px'}>
                     Web Design (Html & React)
@@ -41,7 +41,7 @@ const Types = () => {
                     architecto officiis velit officia molestiae.
                 </Text>
             </Box>
-            <Divider orientation={['horizontal', 'horizontal', 'vertical', 'vertical']} />
+            <Divider orientation={['horizontal', 'horizontal', 'vertical', 'vertical']} borderColor={'black'} />
         </Stack>
         </>
      );
