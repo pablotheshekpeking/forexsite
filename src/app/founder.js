@@ -4,7 +4,7 @@ import React from "react";
 
 const Founder = () => {
     return (
-        <><Heading textAlign={'center'} mt={['50px', '50px', '100px', '250px']}>
+        <><Heading textAlign={'center'} mt={['0px', '0px', '100px', '250px']}>
             About Our Founder
         </Heading>
             <Stack direction={'row'} pr={'20px'} pl={'20px'}>
