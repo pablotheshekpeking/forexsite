@@ -53,9 +53,9 @@ import {
             <Text
               textAlign={useBreakpointValue({ base: 'center', md: 'left' })}
               fontFamily={'heading'}
-              color={useColorModeValue('gray.800', 'white')}
+              color={useColorModeValue(['white', 'white', 'gray.800', 'gray.800'], 'white')}
             >
-              Logo
+              Dumam FX
             </Text>
   
             <Flex display={{ base: 'none', md: 'flex' }} ml={10}>
