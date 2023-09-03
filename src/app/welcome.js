@@ -15,7 +15,7 @@ const Welcome = () => {
                     libero cum molestias cupiditate inventore. Beatae recusandae odit aliquam id minima ducimus nulla eaque quidem optio!
                 </Text>
             </Box>
-            <Box w={'100%'} h={'500px'} mt={['5px', '30px', '30px', '10%']} pr={'20px'} pl={'20px'}>
+            <Box w={'100%'} h={'500px'} mt={['5px', '30px', '30px', '10%']} pr={'20px'} pl={'20px'} display={['none', 'none', 'inline', 'inline']}>
                 <Image src="/forex1.png" h={'100%'} w={'100%'} m={'auto'} />
             </Box>
         </Stack>
