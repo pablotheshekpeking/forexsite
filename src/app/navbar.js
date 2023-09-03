@@ -28,7 +28,7 @@ import {
       <Box>
         <Flex
           bg={useColorModeValue(['black', 'black', 'white', 'white'], 'gray.800')}
-          color={useColorModeValue('gray.600', 'white')}
+          color={useColorModeValue(['white', 'white', 'gray.600', 'gray.600'], 'white')}
           minH={'60px'}
           py={{ base: 2 }}
           px={{ base: 4 }}
