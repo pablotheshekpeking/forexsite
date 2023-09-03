@@ -29,7 +29,7 @@ const ScrollSnapContainer = () => {
                 <div className="parent row" style={parentStyles}>
                     <Stack direction={'row'}>
                         <section className="one" style={{ ...sectionStyles }}>
-                            <Stack direction={'column'}>
+                            <Stack direction={'column'} w={'100%'}>
                                 <Box>
                                     <Image src="/forex1.png" />
                                 </Box>
@@ -39,15 +39,13 @@ const ScrollSnapContainer = () => {
                                     </Heading>
                                     <Text fontSize={'15px'}>
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi veniam reprehenderit exercitationem perferendis magnam pariatur
-                                        et facere alias, nesciunt minus dolorem vero est sapiente, repellendus hic quis? Voluptate, facere ratione?
-                                        Molestias doloremque dolorem, unde obcaecati ducimus neque itaque, ad iure nemo debitis doloribus molestiae
-                                        laudantium quisquam accusamus impedit fugiat, perspiciatis deleniti adipisci minima optio ipsa. Incidunt blanditiis aliquid vel aperiam!
+                                        et facere alias, nesciunt minus dolorem vero est sapiente, repellendus hic quis?
                                     </Text>
                                 </Box>
                             </Stack>
                         </section>
                         <section className="two" style={{ ...sectionStyles }}>
-                            <Stack direction={'column'}>
+                            <Stack direction={'column'} w={'100%'}>
                                 <Box>
                                     <Image src="/forex1.png" />
                                 </Box>
@@ -57,15 +55,13 @@ const ScrollSnapContainer = () => {
                                     </Heading>
                                     <Text fontSize={'15px'}>
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi veniam reprehenderit exercitationem perferendis magnam pariatur
-                                        et facere alias, nesciunt minus dolorem vero est sapiente, repellendus hic quis? Voluptate, facere ratione?
-                                        Molestias doloremque dolorem, unde obcaecati ducimus neque itaque, ad iure nemo debitis doloribus molestiae
-                                        laudantium quisquam accusamus impedit fugiat, perspiciatis deleniti adipisci minima optio ipsa. Incidunt blanditiis aliquid vel aperiam!
+                                        et facere alias, nesciunt minus dolorem vero est sapiente, repellendus hic quis?
                                     </Text>
                                 </Box>
                             </Stack>
                         </section>
                         <section className="three" style={{ ...sectionStyles }}>
-                            <Stack direction={'column'}>
+                            <Stack direction={'column'} w={'100%'}>
                                 <Box>
                                     <Image src="/forex1.png" />
                                 </Box>
@@ -75,15 +71,13 @@ const ScrollSnapContainer = () => {
                                     </Heading>
                                     <Text fontSize={'15px'}>
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi veniam reprehenderit exercitationem perferendis magnam pariatur
-                                        et facere alias, nesciunt minus dolorem vero est sapiente, repellendus hic quis? Voluptate, facere ratione?
-                                        Molestias doloremque dolorem, unde obcaecati ducimus neque itaque, ad iure nemo debitis doloribus molestiae
-                                        laudantium quisquam accusamus impedit fugiat, perspiciatis deleniti adipisci minima optio ipsa. Incidunt blanditiis aliquid vel aperiam!
+                                        et facere alias, nesciunt minus dolorem vero est sapiente, repellendus hic quis?
                                     </Text>
                                 </Box>
                             </Stack>
                         </section>
                         <section className="four" style={{ ...sectionStyles }}>
-                            <Stack direction={'column'}>
+                            <Stack direction={'column'} w={'100%'}>
                                 <Box>
                                     <Image src="/forex1.png" />
                                 </Box>
@@ -93,9 +87,7 @@ const ScrollSnapContainer = () => {
                                     </Heading>
                                     <Text fontSize={'15px'}>
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi veniam reprehenderit exercitationem perferendis magnam pariatur
-                                        et facere alias, nesciunt minus dolorem vero est sapiente, repellendus hic quis? Voluptate, facere ratione?
-                                        Molestias doloremque dolorem, unde obcaecati ducimus neque itaque, ad iure nemo debitis doloribus molestiae
-                                        laudantium quisquam accusamus impedit fugiat, perspiciatis deleniti adipisci minima optio ipsa. Incidunt blanditiis aliquid vel aperiam!
+                                        et facere alias, nesciunt minus dolorem vero est sapiente, repellendus hic quis?
                                     </Text>
                                 </Box>
                             </Stack>
