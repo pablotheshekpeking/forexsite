@@ -29,16 +29,16 @@ const ScrollSnapContainer = () => {
                 <div className="parent row" style={parentStyles}>
                     <Stack direction={'row'}>
                         <section className="one" style={{ ...sectionStyles, backgroundColor: '#dddddd', borderRadius: '20px', marginRight: '20px' }}>
-                            <Stack direction={'column'} w={['200px', '200px', '500px', '500px']} 
+                            <Stack direction={'column'} w={['200px', '200px', '500px', '500px']} p={'10px'} 
                             textAlign={['center', 'center', 'left', 'left']}>
                                 <Box>
-                                    <Image src="/forex1.png" p={'auto'} />
+                                    <Image src="/forex1.png" />
                                 </Box>
                                 <Box>
-                                    <Heading fontSize={'20px'} p={'auto'}>
+                                    <Heading fontSize={'20px'}>
                                         Something Important
                                     </Heading>
-                                    <Text fontSize={'15px'} p={'auto'}>
+                                    <Text fontSize={'15px'}>
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi veniam reprehenderit exercitationem perferendis magnam pariatur
                                         et facere alias, nesciunt minus dolorem vero est sapiente, repellendus hic quis?
                                     </Text>
@@ -46,16 +46,16 @@ const ScrollSnapContainer = () => {
                             </Stack>
                         </section>
                         <section className="two" style={{ ...sectionStyles, backgroundColor: '#dddddd', borderRadius: '20px', marginRight: '20px' }}>
-                            <Stack direction={'column'} w={['200px', '200px', '500px', '500px']} 
+                            <Stack direction={'column'} w={['200px', '200px', '500px', '500px']} p={'10px'} 
                             textAlign={['center', 'center', 'left', 'left']}>
                                 <Box>
-                                    <Image src="/forex1.png" p={'auto'} />
+                                    <Image src="/forex1.png" />
                                 </Box>
                                 <Box>
-                                    <Heading fontSize={'20px'} p={'auto'}>
+                                    <Heading fontSize={'20px'}>
                                         Something Important
                                     </Heading>
-                                    <Text fontSize={'15px'} p={'auto'}>
+                                    <Text fontSize={'15px'}>
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi veniam reprehenderit exercitationem perferendis magnam pariatur
                                         et facere alias, nesciunt minus dolorem vero est sapiente, repellendus hic quis?
                                     </Text>
@@ -63,16 +63,16 @@ const ScrollSnapContainer = () => {
                             </Stack>
                         </section>
                         <section className="three" style={{ ...sectionStyles, backgroundColor: '#dddddd', borderRadius: '20px', marginRight: '20px' }}>
-                            <Stack direction={'column'} w={['200px', '200px', '500px', '500px']} 
+                            <Stack direction={'column'} w={['200px', '200px', '500px', '500px']} p={'10px'} 
                             textAlign={['center', 'center', 'left', 'left']}>
                                 <Box>
-                                    <Image src="/forex1.png" p={'auto'} />
+                                    <Image src="/forex1.png" />
                                 </Box>
                                 <Box>
-                                    <Heading fontSize={'20px'} p={'auto'}>
+                                    <Heading fontSize={'20px'}>
                                         Something Important
                                     </Heading>
-                                    <Text fontSize={'15px'} p={'auto'}>
+                                    <Text fontSize={'15px'}>
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi veniam reprehenderit exercitationem perferendis magnam pariatur
                                         et facere alias, nesciunt minus dolorem vero est sapiente, repellendus hic quis?
                                     </Text>
@@ -80,16 +80,16 @@ const ScrollSnapContainer = () => {
                             </Stack>
                         </section>
                         <section className="four" style={{ ...sectionStyles, backgroundColor: '#dddddd', borderRadius: '20px', marginRight: '20px' }}>
-                            <Stack direction={'column'} w={['200px', '200px', '500px', '500px']} 
+                            <Stack direction={'column'} w={['200px', '200px', '500px', '500px']} p={'10px'} 
                             textAlign={['center', 'center', 'left', 'left']}>
                                 <Box>
-                                    <Image src="/forex1.png" p={'auto'} />
+                                    <Image src="/forex1.png" />
                                 </Box>
                                 <Box>
-                                    <Heading fontSize={'20px'} p={'auto'}>
+                                    <Heading fontSize={'20px'}>
                                         Something Important
                                     </Heading>
-                                    <Text fontSize={'15px'} p={'auto'}>
+                                    <Text fontSize={'15px'}>
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi veniam reprehenderit exercitationem perferendis magnam pariatur
                                         et facere alias, nesciunt minus dolorem vero est sapiente, repellendus hic quis?
                                     </Text>
