@@ -28,7 +28,7 @@ const ScrollSnapContainer = () => {
             <Box w={'80%'} m={'auto'}>
                 <div className="parent row" style={parentStyles}>
                     <Stack direction={'row'}>
-                        <section className="one" style={{ ...sectionStyles, backgroundColor: '#dddddd' }}>
+                        <section className="one" style={{ ...sectionStyles, backgroundColor: '#dddddd', borderRadius: '20px', marginRight: '20px' }}>
                             <Stack direction={'column'} w={['200px', '200px', '500px', '500px']} 
                             textAlign={['center', 'center', 'left', 'left']} borderRadius={'20px'} mr={'20px'}>
                                 <Box>
@@ -45,7 +45,7 @@ const ScrollSnapContainer = () => {
                                 </Box>
                             </Stack>
                         </section>
-                        <section className="two" style={{ ...sectionStyles, backgroundColor: '#dddddd' }}>
+                        <section className="two" style={{ ...sectionStyles, backgroundColor: '#dddddd', borderRadius: '20px', marginRight: '20px' }}>
                             <Stack direction={'column'} w={['200px', '200px', '500px', '500px']} 
                             textAlign={['center', 'center', 'left', 'left']} borderRadius={'20px'} mr={'20px'}>
                                 <Box>
@@ -62,7 +62,7 @@ const ScrollSnapContainer = () => {
                                 </Box>
                             </Stack>
                         </section>
-                        <section className="three" style={{ ...sectionStyles, backgroundColor: '#dddddd' }}>
+                        <section className="three" style={{ ...sectionStyles, backgroundColor: '#dddddd', borderRadius: '20px', marginRight: '20px' }}>
                             <Stack direction={'column'} w={['200px', '200px', '500px', '500px']} 
                             textAlign={['center', 'center', 'left', 'left']} borderRadius={'20px'} mr={'20px'}>
                                 <Box>
@@ -79,7 +79,7 @@ const ScrollSnapContainer = () => {
                                 </Box>
                             </Stack>
                         </section>
-                        <section className="four" style={{ ...sectionStyles, backgroundColor: '#dddddd' }}>
+                        <section className="four" style={{ ...sectionStyles, backgroundColor: '#dddddd', borderRadius: '20px', marginRight: '20px' }}>
                             <Stack direction={'column'} w={['200px', '200px', '500px', '500px']} 
                             textAlign={['center', 'center', 'left', 'left']} borderRadius={'20px'} mr={'20px'}>
                                 <Box>
