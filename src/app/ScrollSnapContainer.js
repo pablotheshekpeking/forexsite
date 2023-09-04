@@ -29,7 +29,7 @@ const ScrollSnapContainer = () => {
                 <div className="parent row" style={parentStyles}>
                     <Stack direction={'row'}>
                         <section className="one" style={{ ...sectionStyles, backgroundColor: '#dddddd', borderRadius: '20px', marginRight: '20px' }}>
-                            <Stack direction={'column'} w={['200px', '200px', '500px', '500px']} p={'10px'} 
+                            <Stack direction={'column'} w={['200px', '300px', '500px', '500px']} p={'10px'} 
                             textAlign={['center', 'center', 'left', 'left']}>
                                 <Box>
                                     <Image src="/forex1.png" />
@@ -46,7 +46,7 @@ const ScrollSnapContainer = () => {
                             </Stack>
                         </section>
                         <section className="two" style={{ ...sectionStyles, backgroundColor: '#dddddd', borderRadius: '20px', marginRight: '20px' }}>
-                            <Stack direction={'column'} w={['200px', '200px', '500px', '500px']} p={'10px'} 
+                            <Stack direction={'column'} w={['200px', '300px', '500px', '500px']} p={'10px'} 
                             textAlign={['center', 'center', 'left', 'left']}>
                                 <Box>
                                     <Image src="/forex1.png" />
@@ -63,7 +63,7 @@ const ScrollSnapContainer = () => {
                             </Stack>
                         </section>
                         <section className="three" style={{ ...sectionStyles, backgroundColor: '#dddddd', borderRadius: '20px', marginRight: '20px' }}>
-                            <Stack direction={'column'} w={['200px', '200px', '500px', '500px']} p={'10px'} 
+                            <Stack direction={'column'} w={['200px', '300px', '500px', '500px']} p={'10px'} 
                             textAlign={['center', 'center', 'left', 'left']}>
                                 <Box>
                                     <Image src="/forex1.png" />
@@ -80,7 +80,7 @@ const ScrollSnapContainer = () => {
                             </Stack>
                         </section>
                         <section className="four" style={{ ...sectionStyles, backgroundColor: '#dddddd', borderRadius: '20px', marginRight: '20px' }}>
-                            <Stack direction={'column'} w={['200px', '200px', '500px', '500px']} p={'10px'} 
+                            <Stack direction={'column'} w={['200px', '300px', '500px', '500px']} p={'10px'} 
                             textAlign={['center', 'center', 'left', 'left']}>
                                 <Box>
                                     <Image src="/forex1.png" />
